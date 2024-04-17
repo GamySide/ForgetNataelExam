@@ -1523,3 +1523,12 @@ LogInit: Object subsystem initialized
 [2024.04.17-14.33.53:113][793]LogEditorActor: Deleted Actor: BP_Money_C
 [2024.04.17-14.33.53:117][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
 [2024.04.17-14.33.53:118][793]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2024.04.17-14.34.39:918][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.04.17-14.34.41:486][795]LogSlate: Window 'Save Content' being destroyed
+[2024.04.17-14.34.41:495][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.17-14.34.41:546][795]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.003834 seconds
+[2024.04.17-14.34.41:550][795]LogSavePackage: Moving output files for package: /Game/FORGET_Natael/Blueprints/BP_Money
+[2024.04.17-14.34.41:550][795]LogSavePackage: Moving '../../../../../../Users/game/Documents/GitHub/Controle_UE/control_UE/Saved/BP_Money27F4D3A94F6D834348D135B61ACC7621.tmp' to '../../../../../../Users/game/Documents/GitHub/Controle_UE/control_UE/Content/FORGET_Natael/Blueprints/BP_Money.uasset'
+[2024.04.17-14.34.41:557][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms
+[2024.04.17-14.34.41:558][795]AssetCheck: New page: Asset Save: BP_Money
+[2024.04.17-14.34.41:558][795]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money
