@@ -1362,3 +1362,164 @@ LogInit: Object subsystem initialized
 [2024.04.17-14.30.59:121][176]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2024.04.17-14.31.05:827][905]LogViewport: Scene viewport resized to 967x725, mode Windowed.
 [2024.04.17-14.31.06:492][905]LogViewport: Scene viewport resized to 1036x1207, mode Windowed.
+[2024.04.17-14.32.12:637][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.17-14.32.12:946][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.17-14.32.17:315][160]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.17-14.32.17:321][160]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.17-14.32.17:321][160]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.17-14.32.17:323][160]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 7 ms)
+[2024.04.17-14.32.17:363][160]LogFMOD: Display: Loaded bank lookup
+[2024.04.17-14.32.17:363][160]LogFMOD: Error: Failed to load asset lookup
+[2024.04.17-14.32.17:366][160]LogFMOD: Default sample rate = 48000
+[2024.04.17-14.32.17:366][160]LogFMOD: System sample rate = 48000
+[2024.04.17-14.32.17:366][160]LogFMOD: Matching system sample rate 48000
+[2024.04.17-14.32.17:395][160]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2024.04.17-14.32.17:433][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.17-14.32.17:433][160]PIE: New page: PIE session: ThirdPersonMap (17 avr. 2024 à 18:32:17)
+[2024.04.17-14.32.17:433][160]LogPlayLevel: Creating play world package: /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.17-14.32.17:435][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002516s)
+[2024.04.17-14.32.17:435][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FORGET_Natael/Maps/ThirdPersonMap.ThirdPersonMap to /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002545s)
+[2024.04.17-14.32.17:440][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.04.17-14.32.17:440][160]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.17-14.32.17:440][160]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.17-14.32.17:441][160]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.17-14.32.17:441][160]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.17-14.32.17:441][160]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.17-14.32.17:441][160]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.17-14.32.17:441][160]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.17-14.32.17:442][160]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.17-14.32.17:442][160]LogWorldPartition: Display: WorldPartition initialize took 917 us (total: 46 ms)
+[2024.04.17-14.32.17:442][160]LogPlayLevel: PIE: World Init took: (0.002254s)
+[2024.04.17-14.32.17:442][160]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.17-14.32.17:443][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.17-14.32.17:443][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.17-14.32.17:443][160]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.17-14.32.17:443][160]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.17-14.32.17:443][160]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.17-14.32.17:445][160]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.17-14.32.17:472][160]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2024.04.17-14.32.17:472][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.17-14.32.17:473][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.17-14.32.17:473][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.17-14.32.17:474][160]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.17-14.32.17:474][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.17-14.32.17:475][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.17-14.32.17:475][160]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.17-14.32.17:475][160]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.17-14.32.17:475][160]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2024.04.17-14.32.17:475][160]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.17-14.32.17:477][160]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.17-14.32.17:478][160]LogWorld: Bringing World /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.17-16.32.17
+[2024.04.17-14.32.17:479][160]LogWorld: Bringing up level for play took: 0.000882
+[2024.04.17-14.32.17:480][160]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.04.17-14.32.17:483][160]PIE: Server logged in
+[2024.04.17-14.32.17:483][160]PIE: Play in editor total start time 0,163 seconds.
+[2024.04.17-14.32.35:246][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.17-14.32.35:246][248]LogWorld: BeginTearingDown for /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.17-14.32.35:246][248]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.17-14.32.35:246][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.17-14.32.35:246][248]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.17-14.32.35:250][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.17-14.32.35:252][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.17-14.32.35:256][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.17-14.32.35:257][248]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.17-14.32.35:257][248]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.17-14.32.35:260][248]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.17-14.32.35:268][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.17-14.32.35:315][249]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.04.17-14.32.40:065][811]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.17-14.32.40:070][811]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.17-14.32.40:070][811]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.17-14.32.40:072][811]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 10 ms)
+[2024.04.17-14.32.40:112][811]LogFMOD: Display: Loaded bank lookup
+[2024.04.17-14.32.40:112][811]LogFMOD: Error: Failed to load asset lookup
+[2024.04.17-14.32.40:115][811]LogFMOD: Default sample rate = 48000
+[2024.04.17-14.32.40:115][811]LogFMOD: System sample rate = 48000
+[2024.04.17-14.32.40:115][811]LogFMOD: Matching system sample rate 48000
+[2024.04.17-14.32.40:144][811]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2024.04.17-14.32.40:182][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.17-14.32.40:182][811]PIE: New page: PIE session: ThirdPersonMap (17 avr. 2024 à 18:32:40)
+[2024.04.17-14.32.40:211][811]LogPlayLevel: Creating play world package: /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.17-14.32.40:213][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002432s)
+[2024.04.17-14.32.40:213][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FORGET_Natael/Maps/ThirdPersonMap.ThirdPersonMap to /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002466s)
+[2024.04.17-14.32.40:216][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.04.17-14.32.40:217][811]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.17-14.32.40:217][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.17-14.32.40:217][811]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.17-14.32.40:217][811]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.17-14.32.40:217][811]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.17-14.32.40:217][811]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.17-14.32.40:217][811]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.17-14.32.40:218][811]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.17-14.32.40:218][811]LogWorldPartition: Display: WorldPartition initialize took 621 us (total: 46 ms)
+[2024.04.17-14.32.40:218][811]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2024.04.17-14.32.40:218][811]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.17-14.32.40:218][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.17-14.32.40:218][811]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.17-14.32.40:219][811]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.17-14.32.40:219][811]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.17-14.32.40:219][811]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.17-14.32.40:220][811]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.17-14.32.40:248][811]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2024.04.17-14.32.40:248][811]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.17-14.32.40:248][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.17-14.32.40:248][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.17-14.32.40:249][811]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.17-14.32.40:249][811]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.17-14.32.40:250][811]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.17-14.32.40:250][811]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.17-14.32.40:250][811]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.04.17-14.32.40:250][811]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.17-14.32.40:250][811]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.17-14.32.40:253][811]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.17-14.32.40:254][811]LogWorld: Bringing World /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.17-16.32.40
+[2024.04.17-14.32.40:254][811]LogWorld: Bringing up level for play took: 0.000928
+[2024.04.17-14.32.40:255][811]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.04.17-14.32.40:258][811]PIE: Server logged in
+[2024.04.17-14.32.40:259][811]PIE: Play in editor total start time 0,189 seconds.
+[2024.04.17-14.32.40:996][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.17-14.32.40:996][869]LogWorld: BeginTearingDown for /Game/FORGET_Natael/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.17-14.32.40:996][869]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.17-14.32.40:998][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.17-14.32.40:998][869]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.17-14.32.41:001][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.17-14.32.41:003][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.17-14.32.41:007][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.17-14.32.41:007][869]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.17-14.32.41:007][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.17-14.32.41:009][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.17-14.32.41:032][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.04.17-14.32.41:073][870]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.04.17-14.33.21:077][511]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.17-14.33.37:627][991]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.17-14.33.37:633][991]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.17-14.33.37:639][991]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.17-14.33.37:649][992]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.17-14.33.47:550][160]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Money
+[2024.04.17-14.33.47:560][160]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.17-14.33.50:231][455]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money_C
+[2024.04.17-14.33.50:231][455]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money_C
+[2024.04.17-14.33.50:232][455]LogActorFactory: Actor Factory spawned Blueprint /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money as actor: BP_Money_C /Game/FORGET_Natael/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Money_C_0
+[2024.04.17-14.33.50:232][455]LogActorFactory: Actor Factory spawned Blueprint /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money as actor: BP_Money_C /Game/FORGET_Natael/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Money_C_0
+[2024.04.17-14.33.50:237][455]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.17-14.33.51:425][596]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money_C
+[2024.04.17-14.33.51:425][596]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money_C
+[2024.04.17-14.33.51:427][596]LogActorFactory: Actor Factory spawned Blueprint /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money as actor: BP_Money_C /Game/FORGET_Natael/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Money_C_UAID_C01803BF97B512ED01_1769691599
+[2024.04.17-14.33.51:428][596]LogActorFactory: Actor Factory spawned Blueprint /Game/FORGET_Natael/Blueprints/BP_Money.BP_Money as actor: BP_Money_C /Game/FORGET_Natael/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Money_C_UAID_C01803BF97B512ED01_1769691599
+[2024.04.17-14.33.53:112][793]Cmd: DELETE
+[2024.04.17-14.33.53:112][793]Cmd: ACTOR DELETE
+[2024.04.17-14.33.53:113][793]LogEditorActor: Deleted Actor: BP_Money_C
+[2024.04.17-14.33.53:117][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.04.17-14.33.53:118][793]LogEditorActor: Deleted 1 Actors (0.006 secs)
